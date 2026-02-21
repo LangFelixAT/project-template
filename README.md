@@ -28,6 +28,10 @@ It is not a product repository and not an installable Python package.
 6. CI runs `make check`.
 7. Merge PR after review and green checks.
 
+Detailed Lifecycle Guide:
+- `planning/PROJECT_LIFECYCLE_GUIDE.md`
+- Full step-by-step operations guide from template clone through version-to-version iteration.
+
 ## Contract
 
 `make check` is the quality contract for local development, agents, and CI.
@@ -46,6 +50,7 @@ Use:
 - `planning/PLANNING_PROMPT.md`
 - `planning/ISSUE_SCHEMA.md`
 - `planning/examples/issues.v0.example.json`
+- `planning/PROJECT_LIFECYCLE_GUIDE.md`
 
 Recommended flow:
 1. Copy `planning/BRIEF.template.md` to `planning/brief.md` and fill it.
@@ -100,4 +105,3 @@ Implement issue #123. Follow AGENTS.md. One PR. Run make check. Open PR with Fix
 - CI gate: `.github/workflows/ci.yml`
 - PR template: `.github/pull_request_template.md`
 - Issue templates: `.github/ISSUE_TEMPLATE/`
-
